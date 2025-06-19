@@ -1,0 +1,8 @@
+image: ghcr.io/gitpod-io/workspace-flutter
+
+tasks:
+  - name: start flutter web
+    command: |
+      flutter config --enable-web
+      flutter pub get
+      flutter run -d chrome

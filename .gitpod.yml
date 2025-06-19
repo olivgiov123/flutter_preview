@@ -1,9 +1,0 @@
-image: dartlang/flutter
-
-tasks:
-  - name: Start Flutter Web
-    command: |
-      flutter config --enable-web
-      flutter pub get
-      flutter run -d chrome
-
